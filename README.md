@@ -29,3 +29,7 @@ The changes must be where it says the word **nordlynx**, at least if you don't u
 You can search the icons to show in this scripts in HackNerdFonts, which is the one I am using, but I gues you can use anyone of your concern.
 
 Enjoy it! :)
+
+
+Credits to:
+S4vitar
