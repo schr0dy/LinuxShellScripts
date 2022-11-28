@@ -24,14 +24,7 @@ The command for Debian distro is:
 
 # vpn_status.sh
 This one, will tell you the internal IP from the VPN you're using. You should change the name of the adapter here too to make this script work properly.
-The changes must be here:
-
-IFACE=$(/usr/sbin/ifconfig | grep **nordlynx** | awk '{print $1}' | tr -d ':')
-if [ "$IFACE" = "**nordlynx**" ]; then
-   echo "%{F#1bbf3e} %{F#ffffff}$(/usr/sbin/ifconfig **nordlynx** | grep "inet " | awk '{print $2}')${u-}"
-else
-   echo "%{F#FF0000}%{u-} Disconnected"
-fi
+The changes must be where it says the word **nordlynx**, at least if you don't use NordVPN.
 
 You can search the icons to show in this scripts in HackNerdFonts, which is the one I am using, but I gues you can use anyone of your concern.
 
